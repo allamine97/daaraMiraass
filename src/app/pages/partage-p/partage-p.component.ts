@@ -7,7 +7,7 @@ import {FormGroup,FormControl } from '@angular/forms';
   styleUrls: ['./partage-p.component.css']
 })
 export class PartagePComponent implements OnInit {
-
+  etap=0;
   form : FormGroup;
   constructor() { }
 
@@ -39,7 +39,9 @@ export class PartagePComponent implements OnInit {
 
   }
 
-
+ etape(a){
+   this.etap=a
+ }
 
 
 
